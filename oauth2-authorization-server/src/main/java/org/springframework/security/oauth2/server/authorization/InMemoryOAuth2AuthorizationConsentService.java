@@ -42,7 +42,7 @@ public final class InMemoryOAuth2AuthorizationConsentService implements OAuth2Au
 	 * Constructs an {@code InMemoryOAuth2AuthorizationConsentService}.
 	 */
 	public InMemoryOAuth2AuthorizationConsentService() {
-		this(Collections.emptyList());
+		this(List.of());
 	}
 
 	/**
